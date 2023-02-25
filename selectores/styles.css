@@ -1,3 +1,11 @@
 h1 {
   color: blue;
 }
+
+[src] {
+  color: red;
+}
+
+[href="ahh"] {
+  color: red;
+}
