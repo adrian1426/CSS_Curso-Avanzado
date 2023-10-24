@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.img {
+  display: block;
+  width: 400px;
+  margin: 80px auto;
+  border: 20px groove brown;
+  border-radius: 10px;
+}
+
 .box {
   background: orangered;
   width: 200px;
