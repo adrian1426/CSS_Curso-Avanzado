@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.enlaces {
+  display: inline-block;
+  text-decoration: none;
+  background: crimson;
+  color: white;
+  padding: 20px 20px;
+}
+
+.block {
+  display: block;
+}
