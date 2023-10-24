@@ -7,9 +7,11 @@
 .img {
   display: block;
   width: 400px;
+  height: 400px;
   margin: 80px auto;
   border: 20px groove brown;
-  border-radius: 10px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .box {
