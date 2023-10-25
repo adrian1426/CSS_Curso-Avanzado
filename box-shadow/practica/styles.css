@@ -53,3 +53,10 @@ body {
   margin-top: 20px;
   text-decoration: none;
 }
+
+.guko {
+  display: block;
+  width: 300px;
+  margin: 30px auto;
+  filter: drop-shadow(10px 10px 10px gold);
+}
