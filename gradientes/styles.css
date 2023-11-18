@@ -11,3 +11,11 @@
   /* background: steelblue; */
   background-image: linear-gradient(to left, crimson, steelblue 90%);
 }
+
+.header {
+  height: 600px;
+  background-image: url(img/fondo1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
