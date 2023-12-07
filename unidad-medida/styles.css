@@ -25,10 +25,10 @@ body {
 }
 
 .container {
-  width: 500px;
-  height: 300px;
+  width: 100vw;
+  height: 100vh;
   background: steelblue;
-  margin: 30px auto;
+  /* margin: 30px auto; */
 }
 
 .children {
