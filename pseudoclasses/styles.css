@@ -1,3 +1,7 @@
+:root {
+  background: steelblue;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +71,10 @@
   padding: 30px;
 }
 
+.form:focus-within {
+  background: darkcyan;
+}
+
 .form__title {
   text-align: center;
   margin-bottom: 20px;
@@ -87,4 +95,13 @@ input[type="email"] {
   margin-bottom: 20px;
   border: none;
   outline: none;
+}
+
+input:focus {
+  background: rgba(220, 20, 60, 0.5);
+}
+
+input[type="checkbox"]:checked+label {
+  background: crimson;
+  color: #fff;
 }
