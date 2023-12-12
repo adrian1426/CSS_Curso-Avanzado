@@ -1,4 +1,6 @@
-* {
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -48,6 +50,14 @@ input[type="text"] {
   border: none;
   border-bottom: 4px solid #fff;
   outline: none;
+}
+
+.card__text::before {
+  content: "Antes de ";
+}
+
+.card__text::after {
+  content: "Despues de ";
 }
 
 input[type="text"]::placeholder {
