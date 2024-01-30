@@ -16,11 +16,18 @@
   font-family: monospace;
 }
 
-@media screen and (orientation:portrait) and (max-width:600px) {
+@media screen and (max-width:400px),
+(min-width:900px) {
   .title {
     text-align: left;
   }
 }
+
+/* @media screen and (orientation:portrait) and (max-width:600px) {
+  .title {
+    text-align: left;
+  }
+} */
 
 /* @media screen and (orientation:landscape) {
   .title {
