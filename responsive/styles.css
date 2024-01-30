@@ -1,3 +1,7 @@
+:root {
+  --color: crimson;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,25 +10,38 @@
 
 .title {
   font-size: 3rem;
-  color: crimson;
+  color: var(--color);
   margin: 40px 0;
   text-align: center;
   font-family: monospace;
 }
 
-@media print {
+@media screen and (orientation:landscape) {
+  .title {
+    margin: 0;
+    color: steelblue;
+    background: #000;
+    height: 100vh;
+  }
+}
+
+/* @media print {
   .title {
     color: steelblue;
     font-size: 5rem;
     text-align: right;
     font-family: cursive;
   }
-}
+} */
 
 /* 0px a 600px */
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
+  :root {
+    --color: white;
+  }
+
   .title {
     background: #000;
-    color: #fff;
+    color: var(--color);
   }
-}
+} */
