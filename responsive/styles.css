@@ -16,14 +16,20 @@
   font-family: monospace;
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (orientation:portrait) and (max-width:600px) {
+  .title {
+    text-align: left;
+  }
+}
+
+/* @media screen and (orientation:landscape) {
   .title {
     margin: 0;
     color: steelblue;
     background: #000;
     height: 100vh;
   }
-}
+} */
 
 /* @media print {
   .title {
