@@ -13,13 +13,14 @@
 
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
 }
 
 .item {
   --height: 90px;
   background: tomato;
-  width: 190px;
+  width: 90px;
   height: var(--height);
   line-height: var(--height);
   color: #fff;
