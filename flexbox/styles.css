@@ -15,8 +15,8 @@
   flex-direction: row;
   /* flex-wrap: wrap; */
   /* justify-content: space-evenly; */
-  align-items: center;
-  align-content: center;
+  /* align-items: center;
+  align-content: center; */
 }
 
 .item {
@@ -47,4 +47,5 @@
 
 .item4 {
   background: steelblue;
+  margin: auto;
 }
