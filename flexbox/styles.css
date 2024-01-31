@@ -35,11 +35,12 @@
 .item2 {
   background: darkslateblue;
   order: 2;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .item3 {
   background: crimson;
+  flex-shrink: 0;
 }
 
 .item4 {
