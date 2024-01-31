@@ -35,6 +35,7 @@
 .item2 {
   background: darkslateblue;
   order: 2;
+  flex-grow: 1;
 }
 
 .item3 {
